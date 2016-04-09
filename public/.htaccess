@@ -2,7 +2,6 @@
 # SetEnv FUEL_ENV production
 
 <IfModule mod_rewrite.c>
-Header set Access-Control-Allow-Origin: "*"
 
 	RewriteEngine on
 
@@ -61,4 +60,8 @@ Header set Access-Control-Allow-Origin: "*"
 
 	</IfModule>
 
+</IfModule>
+
+<IfModule mod_headers.c>
+	  Header set Access-Control-Allow-Origin: "*"
 </IfModule>
