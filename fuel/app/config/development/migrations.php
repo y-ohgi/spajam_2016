@@ -14,6 +14,9 @@ return array(
         5 => '006_create_requesters',
         6 => '007_create_guide_requesters',
         7 => '008_create_guide_requester_states',
+        8 => '009_create_profiles',
+        9 => '010_create_lineids',
+        10 => '011_add_name_to_lineids',
       ),
     ),
     'module' => 
