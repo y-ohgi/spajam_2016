@@ -53,6 +53,7 @@ class Controller_Register extends Controller_Rest
             );
             return $res;
         }
+        
 
         $db = Database_Connection::instance();
         $db->start_transaction();

@@ -6,4 +6,6 @@ return array(
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
 
     'guides/:id' => 'guides/index',
+    'guides/:id/(:any)' => 'guides/$2/$1',
+    'requests/:id' => 'requests/index',
 );
